@@ -1,0 +1,13 @@
+users: email, password, name, created_at, softdelete, isbanned, avatar,
+categories: name, slug, parent_id;
+questions: user_id, title, subtitle, body, created_at, updated_at, slug, unique_number6digit, softdeletes, views, seo_title, seo_description
+tags: id, name, slug, question_id;
+answers: user_id, question_id, body, isactive, 
+rating: user_id, answer_id, is_positive,
+banners: image, link, count, dofollow/ nofollow
+links: url, title, dofollow/nofollow
+messages / 
+ GDPR prostotii todo
+ 
+ 
+ 
